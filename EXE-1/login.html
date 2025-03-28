@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Màn hình đăng nhập</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin:0 20px;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 400px;
+            margin: 100px auto;
+            padding: 20px;
+            border: 1px solid #000000;
+            border-radius: 5px;
+        }
+        h2 {
+            margin-bottom: 20px;
+        }
+        .form-group {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            width: 30%;
+            text-align: left;
+            font-weight: bold;
+        }
+        .form-group input {
+            flex: 1;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        .remember {
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            margin-bottom: 10px;
+        }
+        .remember input {
+            margin-right: 5px;
+        }
+        .forgot-password {
+            display: inline;
+            text-align: center;
+            text-decoration: none;
+            margin-top: 5px;
+            font-size: 14px;
+        
+        }
+        .button-group {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 10px;
+        }
+        .button-group button {
+            display: flex;
+            padding: 10px 16px;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+           
+            font-size: 16px;
+        }
+        .button-group button:hover {
+            background-color: darkblue;
+        }
+        .footer {
+            margin: 20px 0;
+            
+            border:1px solid #000000;
+        }
+        .header {
+            
+            border:1px solid #000000;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <p>Home | <b>Đăng nhập</b> | Đăng ký</p>
+    </div>
+    <div class="container">
+        <h2>Màn hình đăng nhập</h2>
+        <form>
+            <div class="form-group">
+                <label>Username</label>
+                <input type="text" name="username" required>
+            </div>
+            <div class="form-group">
+                <label>Mật khẩu</label>
+                <input type="password" name="password" required>
+            </div>
+            <div class="remember">
+                <input type="checkbox" id="remember" name="remember">
+                <label for="remember">Ghi nhớ đăng nhập</label>
+            </div>
+            <div class="form-group">
+            <a href="#" class="forgot-password">Quên mật khẩu</a>
+            <div class="button-group">
+                <button type="submit">Đăng nhập</button>
+            </div>
+        </div>
+        </form>
+    </div>
+    <div class="footer">
+        <p>Lập trình web @01/2024</p>
+    </div>
+</body>
+</html>

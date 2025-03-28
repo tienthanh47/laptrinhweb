@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+           
+            margin: 0px 20px;
+            text-align: center;
+        }
+
+        .header {
+           
+            padding: 10px;
+            border: 1px solid #000000;
+        }
+
+        .header a {
+            text-decoration: none;
+            color: black;
+           
+        }
+
+        h2 {
+            margin: 20px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background: #ddd;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .pagination {
+            margin: 20px 0;
+        }
+
+        .pagination a {
+            display: inline-block;
+            padding: 8px 12px;
+            margin: 2px;
+            border: 1px solid #ccc;
+            color: blue;
+            text-decoration: none;
+            background: #f8f8f8;
+        }
+
+        .pagination a.active {
+            font-weight: bold;
+            background: #ddd;
+            
+        }
+
+        footer {
+           
+            padding: 10px;
+        
+            border: 1px solid #000000;
+        }
+        table{
+            width: 60%;
+            margin: 10px 20%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="#">Home</a> | <a href="#"><b>Đăng xuất</b></a>
+        </div>
+
+        <h2>Danh sách user</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Thao tác</th>
+                </tr>
+            </thead>
+            <tbody>
+            
+                <tr>
+                    <td>1</td>
+                    <td>UPVH</td>
+                    <td>ATIW@gmail.com</td>
+                    <td>
+                        <a href="#">Edit</a> |
+                        <a href="#">View</a> |
+                        <a href="#">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>IFUK</td>
+                    <td>KULB@gmail.com</td>
+                    <td>
+                        <a href="#">Edit</a> |
+                        <a href="#">View</a> |
+                        <a href="#">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>DZZQ</td>
+                    <td>ERNB@gmail.com</td>
+                    <td>
+                        <a href="#">Edit</a> |
+                        <a href="#">View</a> |
+                        <a href="#">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>UPVH</td>
+                    <td>ATIW@gmail.com</td>
+                    <td>
+                        <a href="#">Edit</a> |
+                        <a href="#">View</a> |
+                        <a href="#">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>IFUK</td>
+                    <td>KULB@gmail.com</td>
+                    <td>
+                        <a href="#">Edit</a> |
+                        <a href="#">View</a> |
+                        <a href="#">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>DZZQ</td>
+                    <td>ERNB@gmail.com</td>
+                    <td>
+                        <a href="#">Edit</a> |
+                        <a href="#">View</a> |
+                        <a href="#">Delete</a>
+                    </td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+       
+        <div class="pagination">
+            <a href="#">Previous</a>
+            <a href="#" class="active">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">Next</a>
+        </div>
+
+        <footer>
+            <p>Lập trình web @01/2024</p>
+        </footer>
+    </div>
+</body>
+
+</html>
